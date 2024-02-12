@@ -1,6 +1,16 @@
-is SHIELD_LILY
+if SHIELD_LILY
 
 config ZMK_KEYBOARD_NAME
     default "lily"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_LILY_LEFT || SHIELD_LILY_RIGHT
+
+config ZMK_SPLIT
+    default y
 
 endif
