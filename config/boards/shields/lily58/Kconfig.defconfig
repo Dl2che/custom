@@ -1,0 +1,6 @@
+is SHIELD_LILY
+
+config ZMK_KEYBOARD_NAME
+    default "lily"
+
+endif
